@@ -7,4 +7,4 @@ RUN apk update && apk add \
     libxml2-dev libxslt-dev build-base ruby-dev libc-dev linux-headers tzdata \
     openssh
 
-RUN gem install bundler rails pg puma foreman tzinfo-data
+RUN gem install rails:5.0.1 bundler pg puma foreman tzinfo-data
