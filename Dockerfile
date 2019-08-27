@@ -1,4 +1,4 @@
-FROM ruby:2.4.0-alpine
+FROM ruby:2.4.6-alpine
 
 # RUN apk update && apk add build-base libpq-dev
 RUN apk update && apk add \
