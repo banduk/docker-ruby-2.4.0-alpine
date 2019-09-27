@@ -6,4 +6,4 @@ RUN apk update && apk add \
     openssl-dev postgresql-dev libpq postgresql-client sqlite-dev \
     libxml2-dev libxslt-dev build-base ruby-dev libc-dev linux-headers tzdata openssh
 
-RUN gem install bundler rails pg puma foreman tzinfo-data
+RUN gem install bundler rails pg puma foreman
